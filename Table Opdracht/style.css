@@ -1,0 +1,15 @@
+table {
+    font-size: larger;
+    background-color: hotpink;
+}
+
+table, th, td {
+    border: 5px groove green;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+p {
+    font-size: xx-small;
+    color: rgb(33, 18, 245);
+}

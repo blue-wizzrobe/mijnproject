@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table opdracht</title>
+</head>
+
+<body>
+    <P>Hier staat een mooie tabel met informatie over personen</P>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Naam</th>
+                <th>Leeftijd</th>
+                <th>Woonplaats</th>
+            </tr>
+        </thead>
+        <tbody id='tableBody'>
+            <tr>
+                <td>Kevin</td>
+                <td>32</td>
+                <td>Bilthoven</td>
+            </tr>
+            <tr>
+                <td>Inge</td>
+                <td>22</td>
+                <td>Roermond</td>
+            </tr>
+            <tr>
+                <td>Gulcihan</td>
+                <td>24</td>
+                <td>Veenendaal</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Dit is de footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+<script>
+    function changeTableColor(color) {
+        let tableBody = document.getElementById('tableBody');
+        tableBody.style.backgroundColor = color;
+    }
+
+    changeTableColor('blue');
+
+</script>
+</html>
