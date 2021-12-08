@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("sum").addEventListener("click", sum);
     document.getElementById("multiply").addEventListener("click", multiply);
